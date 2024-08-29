@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "3d002df0-bfa4-4a82-92b2-2c6bd583c135",
+		"name": "api INTCOR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37835559"
+	},
+	"item": [
+		{
+			"name": "Bienvenida",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "inicio de sesion",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Registro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/INTCOR/registro.jsp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"INTCOR",
+						"registro.jsp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
